@@ -1,0 +1,7 @@
+version: 2
+
+models:
+  - name: finops_focus_aws_v1
+  - name: finops_focus_aws_v2
+  - name: finops_focus_azure_amortized
+  

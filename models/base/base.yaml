@@ -1,0 +1,17 @@
+version: 2
+
+sources:
+  - name: default
+    database: default
+    schema: default
+    tables:
+      - name: aws_data_v1
+      - name: aws_data_v2
+      - name: azure_data_amortized
+      - name: azure_data_actual
+
+models:
+  - name: base_aws_v1
+  - name: base_aws_v2
+  - name: base_azure_actual
+  - name: base_azure_amortized
